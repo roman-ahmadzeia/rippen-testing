@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Roboto:ital,wght@0,400;0,500;1,300;1,900&display=swap');
+
+:root {
+    --brown: #734a4b;
+    --green: #71bb23;
+    --green2: #98be66;
+    --gray: #676767;
+    --off-gray: #3b3b3b;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav-image {
+    max-width: 15%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--green);
+    transition: all 0.8s;
+
+}
+
+.nav-links a:hover{
+    transform:translateY(-50%);
+}
+
+.hero-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-text {
+    font-weight: 800;
+    font-size: 5rem;
+    margin: 0;
+    color: var(--green);
+}
+
+.logo-desc {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.7rem;
+    color: var(--off-gray);
+    width: 80%;
+}
+
+.email {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--off-gray);
+}
+
+.logo-nav {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact-info {
+    font-weight: 700;
+    color: var(--green);
+}
+
+
+.social-icons {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.social-media-buttons{
+    width: 100%;
+    justify-content: center;
+    padding: 7% 0 2% 2%;
+}
+.social-media-buttons button
+{
+    color: white;
+    width: 5rem; height: 5rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 3rem;
+    padding-top: 1%;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.social-media-buttons button:hover
+{
+    transform: translateY(-10%);
+    /*transform: scale(1.2);*/
+
+}
+.instagram{
+    background: linear-gradient(45deg, #7b2fff, #f01973);
+
+}
+.faecbook{
+    background-color: #1a6aff;
+}
+.twitter{
+    background-color: black;
+}
+.linkedin{
+    background-color: #0000a9;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.faq-section {
+    margin-top: 50px;
+    margin-bottom: -80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 5rem;
+    color: var(--green);
+    margin-bottom: 30px;
+}
+
+.faq-content {
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.question, .answer {
+    border-radius: 20px;
+    padding: 10px 15px;
+    max-width: 60%;
+}
+
+.question {
+    background-color: #e0e0e0;
+    align-self: flex-start;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.general-topic0 {
+    color: var(--off-gray);
+    margin-top: 10px;
+    font-size: 2rem ;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.general-topic {
+    color: var(--off-gray);
+    margin-top: 50px;
+    font-size: 2rem ;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+
+.answer {
+    background-color: var(--green);
+    color: #FFFFFF;
+    align-self: flex-end;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.faq-answer p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.sweet-brown {
+    color: var(--brown);
+}
+
+/*.footer{*/
+/*    margin-top: 5%;*/
+/*    padding: 0;*/
+/*    text-align: center;*/
+/*}*/
+/*.footer-copyright{*/
+/*    padding-top: 30%;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-weight: lighter;*/
+/*    font-size: 1rem;*/
+/*}*/
+

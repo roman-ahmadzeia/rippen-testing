@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Roboto:ital,wght@0,400;0,500;1,300;1,900&display=swap');
+.artisan
+{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.acronym-title{
+    color: var(--brown);
+
+}
+
+.acronym-desc{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1rem;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#landing-page
+{
+    margin: 0;
+}
+
+.logo-text
+{
+    font-size: 5rem;
+}
